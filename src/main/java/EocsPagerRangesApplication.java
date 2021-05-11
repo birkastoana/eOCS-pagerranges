@@ -11,7 +11,7 @@ public class EocsPagerRangesApplication {
     public static void main(String... args) {
         PagerRangesUtil pagerRangesUtil = new PagerRangesUtil();
 
-        int[] testArray = {10, 8753, 1, 3, 4, 5, 8, 9, 8752, 8752};
+        int[] testArray = {10, -8753, 1, 3, 4, 5, 8, 9, 8752, 8752};
 
         Set<Integer> testSet = new HashSet<>();
 
